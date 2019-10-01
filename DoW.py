@@ -39,7 +39,7 @@ while check_day == True:
     another_day = str(input('Would you like to enter a new day (y/n)? '))
     
     # Run the program again if yes, or else set check_day to False.
-    if another_day == n or N:
+    if another_day == 'n' or 'N':
         check_day = False
 else:
     print('Goodbye!')
