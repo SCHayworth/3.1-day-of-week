@@ -6,10 +6,11 @@
 # Prompts user to enter an integer between 1 and 7, and displays a day of the week
 # corresponding with the input.
 
-# Initialize the check_day boolean variable and set it to True
-check_day = True
+# Initialize the check_day variable and set it to 1
+check_day = 1
 
-while check_day == True:
+# Loop the program as long as check_day is 1, or else end the program.
+while check_day == 1:
     # Prompt user for input and store it in the day_of_week variable
     day_of_week = int(input('Please enter a number between 1 and 7: '))
 
@@ -40,7 +41,7 @@ while check_day == True:
     
     # Run the program again if yes, or else set check_day to False.
     if another_day == 'n' or 'N':
-        check_day = False
+        check_day = 0
 else:
     print('Goodbye!')
         
