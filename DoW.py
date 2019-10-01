@@ -42,5 +42,5 @@ while check_day == True:
     if another_day == n or N:
         check_day = False
 else:
-    print('Goodbye!)
+    print('Goodbye!')
         
