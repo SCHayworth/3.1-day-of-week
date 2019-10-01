@@ -3,7 +3,7 @@
 # CIS 2
 # 2019-10-01
 
-# Promts user to enter an integer between 1 and 7, and displays a day of the week
+# Prompts user to enter an integer between 1 and 7, and displays a day of the week
 # corresponding with the input.
 
 # Prompt user for input and store it in the day_of_week variable
