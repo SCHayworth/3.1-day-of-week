@@ -36,7 +36,7 @@ while check_day == True:
         print('That is not a valid day.')
           
     # Ask user if they'd like to enter another day.
-    another_day = char(input('Would you like to enter a new day (y/n)? '))
+    another_day = str(input('Would you like to enter a new day (y/n)? '))
     
     # Run the program again if yes, or else set check_day to False.
     if another_day == n or N:
