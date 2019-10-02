@@ -40,6 +40,7 @@ check_day = True
 # Loop main() as long as the check_day variable is True, otherwise print a message to the screen and quit.
 while check_day == True:
     main()
+    # Asks user if they'd like to repeat the program and sets check_day to False if not.
     check_again = str(input('Would you like to input another number (y/n)? '))
     if check_again == 'n' or check_again == 'N':
         check_day = False
