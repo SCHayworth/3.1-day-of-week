@@ -34,7 +34,7 @@ def main():
         print('That is not a valid day.')
         
 # Asks the user if they would like to check another day, and if so, returns 1, or else returns 0.
-def repeat_loop(repeat):
+def repeat_loop():
     check_again = str(input('Would you like to input another number (y/n)? '))
     if check_again == 'y' or 'Y':
         return 1
