@@ -34,15 +34,15 @@ def main():
         print('That is not a valid day.')
        
         
-# Initialize the check_day variable and set it to 1.
-check_day = 1
+# Initialize the check_day variable and set it to True.
+check_day = True
 
 # Loop main() as long as the check_day variable is True, otherwise print a message to the screen and quit.
-while check_day == 1:
+while check_day = True:
     main()
     check_again = str(input('Would you like to input another number (y/n)? '))
     if check_again == 'n' or 'N':
-        check_day += 1
+        check_day = False
 else:
     print('Goodbye!')
           
