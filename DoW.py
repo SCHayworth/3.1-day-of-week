@@ -33,21 +33,21 @@ def main():
     else:
         print('That is not a valid day.')
         
-# Asks the user if they would like to check another day, and if so, returns True, or else returns False.
-def repeat_loop(repeat = False):
+# Asks the user if they would like to check another day, and if so, returns 1, or else returns 0.
+def repeat_loop(repeat):
     check_again = str(input('Would you like to input another number (y/n)? '))
     if check_again == 'y' or 'Y':
-        repeat = True
+        return 1
     else:
-        repeat = False
+        return 0
         
-# Initialize the check_day boolean variable and set it to True.
-check_day = True
+# Initialize the check_day boolean variable and set it to 1.
+check_day = 1
 
 # Loop main() as long as the check_day variable is True, otherwise print a message to the screen and quit.
-while check_day == True:
+while check_day == 1:
     main()
-    repeat = repeat_loop()
+    repeat_loop(repeat)
     check_day = repeat
 else:
     print('Goodbye!')
