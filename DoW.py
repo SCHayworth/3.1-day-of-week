@@ -38,7 +38,7 @@ def main():
 check_day = True
 
 # Loop main() as long as the check_day variable is True, otherwise print a message to the screen and quit.
-while check_day = True:
+while check_day == True:
     main()
     check_again = str(input('Would you like to input another number (y/n)? '))
     if check_again == 'n' or 'N':
