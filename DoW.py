@@ -43,6 +43,10 @@ while check_day == True:
     check_again = str(input('Would you like to input another number (y/n)? '))
     if check_again == 'n' or 'N':
         check_day = False
+    else:
+        check_day = True
+    print(check_again)
+    print(check_day)
 else:
     print('Goodbye!')
           
