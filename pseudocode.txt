@@ -1,0 +1,9 @@
+1.	Prompt user for a number and store it in a variable
+4.	If the integer is equal to 1, print “Monday”
+5.	If the integer is equal to 2, print “Tuesday”
+6.	If the integer is equal to 3, print “Wednesday”
+7.	If the integer is equal to 4, print “Thursday”
+8.	If the integer is equal to 5, print “Friday”
+9.	If the integer is equal to 6, print “Saturday”
+10.	If the integer is equal to 7, print “Sunday”
+11.	If it is any other number, print “That is not a valid day.”
