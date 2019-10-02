@@ -41,7 +41,7 @@ check_day = True
 while check_day == True:
     main()
     check_again = str(input('Would you like to input another number (y/n)? '))
-    if check_again == 'n' or 'N':
+    if check_again == 'n' or check_again == 'N':
         check_day = False
     else:
         check_day = True
