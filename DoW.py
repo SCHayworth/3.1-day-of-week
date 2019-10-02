@@ -45,8 +45,6 @@ while check_day == True:
         check_day = False
     else:
         check_day = True
-    print(check_again)
-    print(check_day)
 else:
     print('Goodbye!')
           
