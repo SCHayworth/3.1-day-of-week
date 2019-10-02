@@ -9,10 +9,6 @@
 # Prompt user for input and store it in the day_of_week variable
 day_of_week = int(input('Please enter a number between 1 and 7: '))
 
-# To be done:
-#   Check for valid integer
-#   Check for valid range
-
 # Display name of day corresponding with input.
 if day_of_week == 1:
     print('Monday')
