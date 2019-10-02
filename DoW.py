@@ -47,7 +47,8 @@ check_day = True
 # Loop main() as long as the check_day variable is True, otherwise print a message to the screen and quit.
 while check_day == True:
     main()
-    check_day = repeat_loop()
+    repeat = repeat_loop()
+    check_day = repeat
 else:
     print('Goodbye!')
           
